@@ -1,0 +1,36 @@
+
+
+
+.left{
+    width:47%;
+    height:80%;
+    padding-top:60px;
+    padding-bottom: 60px;
+    padding-left:20px;
+    padding-right:20px;
+    margin:10px;
+}
+h3{
+    color: var(--theme-color);
+}
+.right{
+    display:flex;
+    justify-content: CENTER;
+    align-items: CENTER;
+    width:47%;
+    height:80%;
+   
+
+}
+.imgg{
+    height:50%;
+    width:95%;
+    background-color:red;
+}
+.formButton#buttonSignup{
+    background-color: black;
+    border-bottom-left-radius: 10px;
+}
+.button{
+    background-color: var(--theme-color);
+}
