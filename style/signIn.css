@@ -1,36 +1,56 @@
 
-
-
-.left{
-    width:47%;
-    height:80%;
-    padding-top:60px;
-    padding-bottom: 60px;
-    padding-left:20px;
-    padding-right:20px;
-    margin:10px;
+.gifContainer{
+    width:fit-content;
+    background:var(--background-color);
 }
-h3{
-    color: var(--theme-color);
-}
-.right{
+
+.sideContainer{
     display:flex;
-    justify-content: CENTER;
-    align-items: CENTER;
-    width:47%;
-    height:80%;
-   
+    flex-direction: column;
+    justify-content: center;
+    width:40%;
+    padding:5%;
+    color:white;
+}
 
+.sideContainer#rightSideContainer{
+    align-items: center;
 }
-.imgg{
-    height:50%;
-    width:95%;
-    background-color:red;
+
+.form{
+    width:auto;
+    display: FLEX;
+    gap:25px;
+    flex-direction: COLUMN;
+    align-items: center;
+    border:.5px solid var(--theme-color);
+    padding: 4rem 3rem 4rem 4rem;
 }
-.formButton#buttonSignup{
-    background-color: black;
-    border-bottom-left-radius: 10px;
+
+.formContainer{
+   display:flex;
+   gap:20px;
 }
-.button{
-    background-color: var(--theme-color);
+
+.changableForm{
+    width:100%;
+    align-items: center;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    overflow:hidden;
+}
+.changableForm#signup{
+    width:0px;
+}
+.switchFormButton,.forgotPassword{
+    padding:0;
+    background:transparent;
+    border:none;
+    color:white;
+}
+.switchFormButton:hover,.forgotPassword:hover{
+    color:var(--theme-color);
+    text-decoration: underline;
+    cursor: pointer;
 }

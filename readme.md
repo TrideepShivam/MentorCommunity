@@ -4,10 +4,11 @@ Mentors Community::::
 Modules: 
 1. Sign-in or Sign-up with id... 
 2. Dashboard
-3. Feedback
-4. About
-5. Support
-6. Logout
+3. Settings
+4. Feedback
+5. About
+6. Support
+7. Logout
 
 functions:
     manually check for mentor and candidate's ids along with their information then allow to sign in.
