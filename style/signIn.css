@@ -41,7 +41,10 @@
     overflow:hidden;
 }
 .changableForm#signup{
-    width:0px;
+    display:none;
+}
+.changableForm#signin{
+    padding-bottom:70px;
 }
 .switchFormButton,.forgotPassword{
     padding:0;
