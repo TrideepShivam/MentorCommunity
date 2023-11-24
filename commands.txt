@@ -1,0 +1,5 @@
+npm create vite@latest
+npm run dev
+curl https://getcomposer.org/installer -o composer-setup.php
+curl composer-setup.php
+rm composer-setup.php

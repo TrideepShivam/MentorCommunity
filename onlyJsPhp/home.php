@@ -27,7 +27,7 @@
 
         <div class="menuAndContentContainer">
             <div class="menuContainer">
-                <div class="menu">
+                <div class="menu" id="homeMenu">
                     <img src="https://img.icons8.com/material-rounded/40/FFFFFF/smart-home-shield.png" alt="smart-home-shield"/>
                     <p class="menuTxt">Home</p>
                 </div>
@@ -53,18 +53,14 @@
                 </div>
             </div>
             <div class="communityAndSearchContainer">
-                <div  class="searchContainer">
-                    <input type="text" placeholder="Search">
-                </div>
-                <div class="communityContainer">
-
-                </div>
+                
             </div>
             <div class="communityDetailAndMsgContainer">
 
             </div>
         </div>
     </div>
-    <script src="./js/application.js"></script>
+    <script src="./js/application.js" type="module"></script>
+    <script src="./js/RequestServer.js" type="module"></script>
 </body>
 </html>
