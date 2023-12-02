@@ -1,0 +1,1 @@
+this section is used to create only small comoponents which can be used dynamically.

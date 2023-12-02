@@ -1,0 +1,26 @@
+.txtbox{
+    background:#dddddd;
+    color:black;
+    padding:12px 15px;
+    border-radius: 10px;
+    font-size:18px;
+    border:2px solid transparent;
+    outline:1px solid transparent;
+  }
+  .txtbox:focus{
+    border:2px solid var(--theme-color);
+  }
+
+  .indexButton{
+    width:100%;
+    padding:10px 15px;
+    border-radius: 10px;
+    color:white;
+    font-size: 18px;
+    background:linear-gradient( var(--theme-color),#5dbbff);
+    cursor: pointer;
+  }
+  .indexButton:hover{
+    background:linear-gradient( #5dbbff,var(--theme-color));
+  }
+

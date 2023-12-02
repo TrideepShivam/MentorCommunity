@@ -3,3 +3,8 @@ npm run dev
 curl https://getcomposer.org/installer -o composer-setup.php
 curl composer-setup.php
 rm composer-setup.php
+composer create-project laravel/laravel:^9.0 backend
+cd backend
+php artisan serve
+php artisan migrate
+npm install react-router-dom -s
