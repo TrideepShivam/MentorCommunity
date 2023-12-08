@@ -11,6 +11,10 @@ const router =  createBrowserRouter([
         element:<SigninLayout/>,
         children:[
             {
+                path:'/',
+                element:<Navigate to="/signin"/>
+            },
+            {
                 path:'/signin',
                 element:<Signin />
             },

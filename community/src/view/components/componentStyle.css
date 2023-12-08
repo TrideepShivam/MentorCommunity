@@ -24,3 +24,31 @@
     background:linear-gradient( #5dbbff,var(--theme-color));
   }
 
+  .outerCheckbox{
+    color:#444444;
+    height:20px;
+    width:20px;
+    border:3px solid gray;
+    background:gray;
+    border-radius:5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transition:all .5s;
+  }
+  .checkboxContainer input{
+        display:none;
+        float:right;
+      
+  } 
+  .checkboxContainer,.checkboxContainer label{
+    display:flex;
+    cursor:pointer;
+  }
+  .checkboxContainer input:checked~label .outerCheckbox{
+    color:var(--theme-color);
+    border-color: var(--theme-color);
+    background-color: #1f1f1f;
+  }
+  
+  
