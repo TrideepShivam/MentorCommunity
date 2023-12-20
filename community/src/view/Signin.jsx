@@ -11,7 +11,7 @@ function Signin(){
                 <div className="changableForm">
                     <PlainTxtbox type="email" placeholder="Email"/>
                     <PlainTxtbox type="password" placeholder="Password"/>
-                    <Link className="anchor" to="/ForgotPassword">forgot Password</Link>
+                    <Link className="anchor" to="/ForgotPassword">Forgot Password</Link>
                     <IndexButton value="Sign in"/>
                     <p>Don't have an account? &nbsp;<Link className="anchor" to="/Signup">Signup</Link></p>
                 </div>
