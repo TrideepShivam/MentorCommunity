@@ -2,7 +2,11 @@ import { Link } from 'react-router-dom';
 import PlainTxtbox from './components/Textbox/PlainTxtbox'
 import './style/signIn.css'
 import IndexButton from './components/Buttons/IndexButton';
- 
+
+const handleSubmit = (e)=>{
+    console.log(e.target.value)
+}
+
 function Signin(){
     return(
         <div className="form">
@@ -12,7 +16,7 @@ function Signin(){
                     <PlainTxtbox type="email" placeholder="Email"/>
                     <PlainTxtbox type="password" placeholder="Password"/>
                     <Link className="anchor" to="/ForgotPassword">Forgot Password</Link>
-                    <IndexButton value="Sign in"/>
+                    <IndexButton value="Sign in" onClick={handleSubmit}/>
                     <p>Don't have an account? &nbsp;<Link className="anchor" to="/Signup">Signup</Link></p>
                 </div>
             </div>
