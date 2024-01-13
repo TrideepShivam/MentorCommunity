@@ -2,7 +2,12 @@ import '../componentStyle.css'
 export default function PlainTxtbox(props){
     return (
         <>
-        <input className="txtbox" type={props.type} placeholder={props.placeholder}/>
+            <input 
+                ref={props.refProp&&props.refProp} 
+                className="txtbox" 
+                type={props.type?props.type:"text"} 
+                placeholder={props.placeholder?props.placeholder:""}
+            />
         </>
     )
 }
