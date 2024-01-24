@@ -1,0 +1,20 @@
+::-webkit-inner-spin-button{
+    appearance: none;
+}
+.otpContainer input{
+    width:18px;
+    margin:5px;
+    background-color: #ddd;
+    color:black;
+    padding:5px 10px;
+    border-radius: 10px;
+    font-size:22px;
+    font-weight: bolder;
+    border:none;
+    border-bottom:1px solid var(--theme-color);
+    outline:1px solid transparent;
+}
+.otpContainer input:focus{
+    outline:none;
+}
+
