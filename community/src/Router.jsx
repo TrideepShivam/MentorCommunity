@@ -4,6 +4,7 @@ import Signup from './view/Signup';
 import Home from './view/Home';
 import NotFound from './view/NotFound';
 import SigninLayout from './view/layouts/SigninLayout';
+import VarifyOtp from './view/VarifyOtp';
 
 const router =  createBrowserRouter([
     {
@@ -33,8 +34,8 @@ const router =  createBrowserRouter([
         element:<NotFound />
     },
     {
-        path:'/',
-        element:<Navigate to='/signin'/>
+        path:'/varify',
+        element:<VarifyOtp />
     }
 ])
 
