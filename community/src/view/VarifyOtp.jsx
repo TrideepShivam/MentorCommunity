@@ -5,9 +5,9 @@ import PlainTxtbox from './components/Textbox/PlainTxtbox'
 import './style/signIn.css'
  
 export default function VarifyOtp(){
-    let otp =""
+    const otp = useRef()
     const handleSubmit = ()=>{
-        console.log(otp);
+        console.log(otp.current);
     }
     return(
         <div className="mainContainer">
@@ -15,9 +15,10 @@ export default function VarifyOtp(){
                 <img width="60" height="60" src="https://img.icons8.com/external-basicons-solid-edtgraphics/60/0093ff/external-Teacher-teachers-basicons-solid-edtgraphics-16.png" alt="external-Teacher-teachers-basicons-solid-edtgraphics-16"/>
                 <div className="formContainer" >
                     <PlainTxtbox type="email" placeholder="Email"/>
+                    <p className="anchor">Resend OTP</p>
                     <p>Enter OTP</p>
                     <OtpBox var={otp}/>
-                    <IndexButton value="Sign in" onClick={handleSubmit}/>
+                    <IndexButton value="Verify" onClick={handleSubmit}/>
                 </div>
             </div>
         </div>
